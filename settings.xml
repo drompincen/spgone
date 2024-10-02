@@ -1,0 +1,46 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                              http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <localRepository>/path/to/local/repo</localRepository> <!-- Optional: custom local repo path -->
+
+    <mirrors>
+        <!-- Example: Use a mirror for Maven Central -->
+
+    </mirrors>
+
+    <proxies>
+        <!-- Example: Proxy configuration -->
+
+    </proxies>
+
+    <servers>
+        <!-- Example: Credentials for a repository -->
+
+    </servers>
+
+    <profiles>
+        <profile>
+            <id>default-profile</id>
+            <!-- Optional: activate default profile -->
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo.maven.apache.org/maven2</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>default-profile</activeProfile>
+    </activeProfiles>
+
+</settings>

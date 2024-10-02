@@ -1,0 +1,64 @@
+# IntelliJ IDEA
+
+# Exclude all the .idea directory content
+.idea/
+
+# If you want to include specific settings, you can uncomment the lines below
+# and commit only those files.
+# !.idea/misc.xml
+# !.idea/modules.xml
+# !.idea/vcs.xml
+# !.idea/runConfigurations/
+# !.idea/inspectionProfiles/
+
+# Exclude all .iml module files
+*.iml
+
+# Exclude build output directories
+/out/
+# If using Maven:
+target/
+# If using Gradle:
+/build/
+corpact/
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.iws
+*.ipr
+
+# Generated files
+gen/
+bin/
+
+# Temporary files
+*.swp
+*~
+
+# Exclude coverage reports
+coverage/
+
+# Exclude local environment configuration
+.env
+
+# Exclude virtual environment directories
+.venv/
+venv/
+
+# Exclude node_modules if using Node.js
+node_modules/
+
+# Ignore IDE project files
+.project
+.settings/
+
+# Ignore Eclipse project files if applicable
+.cproject
